@@ -1,0 +1,3 @@
+C:\Mockup\FPShooterUE\FPShooterUE\Source\FPShooterUE\FPShooterUE.Build.cs
+C:\Mockup\FPShooterUE\FPShooterUE\Source\FPShooterUE.Target.cs
+C:\Mockup\FPShooterUE\FPShooterUE\Source\FPShooterUEEditor.Target.cs

@@ -15,6 +15,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 #define FPShooterUE_Source_FPShooterUE_FPSCharacter_h_12_RPC_WRAPPERS \
  \
+	DECLARE_FUNCTION(execFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->Fire(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execStopJump) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->StopJump(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execStartJump) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->StartJump(); \
+		P_NATIVE_END; \
+	} \
+ \
 	DECLARE_FUNCTION(execMoveRight) \
 	{ \
 		P_GET_PROPERTY(UFloatProperty,Z_Param_Value); \
@@ -35,6 +59,30 @@ PRAGMA_DISABLE_DEPRECATION_WARNINGS
 
 
 #define FPShooterUE_Source_FPShooterUE_FPSCharacter_h_12_RPC_WRAPPERS_NO_PURE_DECLS \
+ \
+	DECLARE_FUNCTION(execFire) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->Fire(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execStopJump) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->StopJump(); \
+		P_NATIVE_END; \
+	} \
+ \
+	DECLARE_FUNCTION(execStartJump) \
+	{ \
+		P_FINISH; \
+		P_NATIVE_BEGIN; \
+		this->StartJump(); \
+		P_NATIVE_END; \
+	} \
  \
 	DECLARE_FUNCTION(execMoveRight) \
 	{ \

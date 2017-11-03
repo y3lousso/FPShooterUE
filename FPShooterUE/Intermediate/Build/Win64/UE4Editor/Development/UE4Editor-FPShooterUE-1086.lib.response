@@ -1,0 +1,20 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UE4Editor-FPShooterUE-1086.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\Engine\SharedPCH.Engine.h.obj"
+"C:\Mockup\FPShooterUE\FPShooterUE\Intermediate\Build\Win64\UE4Editor\Development\FPShooterUE\FPSCharacter.cpp.obj"
+"C:\Mockup\FPShooterUE\FPShooterUE\Intermediate\Build\Win64\UE4Editor\Development\FPShooterUE\FPShooterUE.cpp.obj"
+"C:\Mockup\FPShooterUE\FPShooterUE\Intermediate\Build\Win64\UE4Editor\Development\FPShooterUE\FPShooterUEGameModeBase.cpp.obj"
+"C:\Mockup\FPShooterUE\FPShooterUE\Intermediate\Build\Win64\UE4Editor\Development\FPShooterUE\FPSProjectile.cpp.obj"
+"C:\Mockup\FPShooterUE\FPShooterUE\Intermediate\Build\Win64\UE4Editor\Development\FPShooterUE\FPSCharacter.gen.cpp.obj"
+"C:\Mockup\FPShooterUE\FPShooterUE\Intermediate\Build\Win64\UE4Editor\Development\FPShooterUE\FPShooterUE.init.gen.cpp.obj"
+"C:\Mockup\FPShooterUE\FPShooterUE\Intermediate\Build\Win64\UE4Editor\Development\FPShooterUE\FPShooterUEGameModeBase.gen.cpp.obj"
+"C:\Mockup\FPShooterUE\FPShooterUE\Intermediate\Build\Win64\UE4Editor\Development\FPShooterUE\FPSProjectile.gen.cpp.obj"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\FPShooterUE\PCLaunch.rc.res"
+"C:\Program Files\Epic Games\UE_4.17\Engine\Intermediate\Build\Win64\UE4Editor\Development\ModuleVersionResource.rc.inl.res"
+/OUT:"C:\Mockup\FPShooterUE\FPShooterUE\Intermediate\Build\Win64\UE4Editor\Development\UE4Editor-FPShooterUE-1086.lib"

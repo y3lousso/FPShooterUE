@@ -1,58 +1,73 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-
 <Project ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
-	<ItemGroup>
-		<None Include="..\..\FPShooterUE.uproject" />
-		<Filter Include="Source">
-			<UniqueIdentifier>{9744020C-59BE-4494-937E-D3C7ED511FA7}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Source\FPShooterUE.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<None Include="..\..\Source\FPShooterUEEditor.Target.cs">
-			<Filter>Source</Filter>
-		</None >
-		<Filter Include="Config">
-			<UniqueIdentifier>{67F33874-375E-4FB2-96E8-5DFC0ED5411E}</UniqueIdentifier>
-		</Filter>
-		<None Include="..\..\Config\DefaultEditor.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultEngine.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultGame.ini">
-			<Filter>Config</Filter>
-		</None >
-		<None Include="..\..\Config\DefaultInput.ini">
-			<Filter>Config</Filter>
-		</None >
-		<Filter Include="Source\FPShooterUE">
-			<UniqueIdentifier>{7148B287-991B-4D08-BE5E-FEE8EC97D517}</UniqueIdentifier>
-		</Filter>
-		<ClCompile Include="..\..\Source\FPShooterUE\FPSCharacter.cpp">
-			<Filter>Source\FPShooterUE</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FPShooterUE\FPSCharacter.h">
-			<Filter>Source\FPShooterUE</Filter>
-		</ClInclude >
-		<None Include="..\..\Source\FPShooterUE\FPShooterUE.Build.cs">
-			<Filter>Source\FPShooterUE</Filter>
-		</None >
-		<ClCompile Include="..\..\Source\FPShooterUE\FPShooterUE.cpp">
-			<Filter>Source\FPShooterUE</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FPShooterUE\FPShooterUE.h">
-			<Filter>Source\FPShooterUE</Filter>
-		</ClInclude >
-		<ClCompile Include="..\..\Source\FPShooterUE\FPShooterUEGameModeBase.cpp">
-			<Filter>Source\FPShooterUE</Filter>
-		</ClCompile >
-		<ClInclude Include="..\..\Source\FPShooterUE\FPShooterUEGameModeBase.h">
-			<Filter>Source\FPShooterUE</Filter>
-		</ClInclude >
-	</ItemGroup>
+  <ItemGroup>
+    <None Include="..\..\FPShooterUE.uproject" />
+    <Filter Include="Source">
+      <UniqueIdentifier>{9744020C-59BE-4494-937E-D3C7ED511FA7}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Source\FPShooterUE.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <None Include="..\..\Source\FPShooterUEEditor.Target.cs">
+      <Filter>Source</Filter>
+    </None>
+    <Filter Include="Config">
+      <UniqueIdentifier>{67F33874-375E-4FB2-96E8-5DFC0ED5411E}</UniqueIdentifier>
+    </Filter>
+    <None Include="..\..\Config\DefaultEditor.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEditorPerProjectUserSettings.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultEngine.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultGame.ini">
+      <Filter>Config</Filter>
+    </None>
+    <None Include="..\..\Config\DefaultInput.ini">
+      <Filter>Config</Filter>
+    </None>
+    <Filter Include="Source\FPShooterUE">
+      <UniqueIdentifier>{7148B287-991B-4D08-BE5E-FEE8EC97D517}</UniqueIdentifier>
+    </Filter>
+    <ClCompile Include="..\..\Source\FPShooterUE\FPSCharacter.cpp">
+      <Filter>Source\FPShooterUE</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPShooterUE\FPSCharacter.h">
+      <Filter>Source\FPShooterUE</Filter>
+    </ClInclude>
+    <None Include="..\..\Source\FPShooterUE\FPShooterUE.Build.cs">
+      <Filter>Source\FPShooterUE</Filter>
+    </None>
+    <ClCompile Include="..\..\Source\FPShooterUE\FPShooterUE.cpp">
+      <Filter>Source\FPShooterUE</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPShooterUE\FPShooterUE.h">
+      <Filter>Source\FPShooterUE</Filter>
+    </ClInclude>
+    <ClCompile Include="..\..\Source\FPShooterUE\FPShooterUEGameModeBase.cpp">
+      <Filter>Source\FPShooterUE</Filter>
+    </ClCompile>
+    <ClInclude Include="..\..\Source\FPShooterUE\FPShooterUEGameModeBase.h">
+      <Filter>Source\FPShooterUE</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\Source\FPShooterUE\FPSProjectile.h">
+      <Filter>Source\FPShooterUE</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\Source\FPShooterUE\FPSHUD.h">
+      <Filter>Source\FPShooterUE</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\Source\FPShooterUE\FPSProjectile.cpp">
+      <Filter>Source\FPShooterUE</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\Source\FPShooterUE\FPSHUD.cpp">
+      <Filter>Source\FPShooterUE</Filter>
+    </ClCompile>
+  </ItemGroup>
 </Project>

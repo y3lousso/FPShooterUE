@@ -33,6 +33,34 @@ public:
 	// Handles input for moving right and left.
 	UFUNCTION()
 	void MoveRight(float Value);
+
+	// Sets jump flag when key is pressed.
+	UFUNCTION()
+	void StartJump();
+
+	// Clears jump flag when key is released.
+	UFUNCTION()
+	void StopJump();
+
+	// Function that handles firing projectiles.
+	UFUNCTION()
+	void Fire();
+
+	// Gun muzzle's offset from the camera location.
+	UPROPERTY(EditAnywhere, BlueprintReadWrite, Category = Gameplay)
+	FVector MuzzleOffset;
+
+	// Projectile class to spawn.
+	UPROPERTY(EditDefaultsOnly, Category = Projectile)
+	TSubclassOf<class AFPSProjectile> ProjectileClass;
+
+	// FPS camera.
+	UPROPERTY(VisibleAnywhere)
+	UCameraComponent* FPSCameraComponent;
+
+	// First-person mesh (arms), visible only to the owning player.
+	UPROPERTY(VisibleDefaultsOnly, Category = Mesh)
+	USkeletalMeshComponent* FPSMesh;
 	
 	
 };
